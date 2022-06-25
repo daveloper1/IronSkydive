@@ -4,7 +4,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family:Roboto;
+  font-family:'Roboto';
   font-size: 10px;
   line-height: 3.5em;
   font-weight: 300;
@@ -16,7 +16,7 @@ h3,
 h4, 
 h5, 
 h6 {
-    font-family: Roboto Condensed;
+    font-family: 'Roboto Condensed';
 }
 h1{
     font-size: 9em;
@@ -65,6 +65,10 @@ h5{
 
 .header-design{
     height: 650px;
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header-design h2{
     color: white;
@@ -73,4 +77,35 @@ h5{
 
 .quote{
     font-size: 2.5em;
+}
+
+.dark-background{
+    background-color: rgb(25, 33, 41);
+    color: white;
+
+}
+
+.text{
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn{
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed';    ;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.service-box{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img{
+    width: 125px;
 }
