@@ -62,3 +62,15 @@ h5{
     text-decoration: none;
     font-size: 2em;
 }
+
+.header-design{
+    height: 650px;
+}
+.header-design h2{
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
+}
+
+.quote{
+    font-size: 2.5em;
+}
