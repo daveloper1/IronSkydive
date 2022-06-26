@@ -3,11 +3,11 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 0; /* doesn't affect to the list as the picture shows*/
   font-family:'Roboto';
   font-size: 10px;
   line-height: 3.5em;
-  font-weight: 300;
+  font-weight: 300;  
 }
 
 h1,
@@ -18,6 +18,7 @@ h5,
 h6 {
     font-family: 'Roboto Condensed';
 }
+
 h1{
     font-size: 9em;
     text-align: center;
@@ -48,9 +49,14 @@ h5{
     line-height: 1em;
 }
 
+/*Colors*/
+
 .nav-bar{
     background-color: rgb(25,33,41);
-    
+}
+.nav-bar ul{
+    list-style: none;
+    padding: 0;
 }
 
 /*li{
@@ -63,6 +69,8 @@ h5{
     font-size: 2em;
 }
 
+/*HEADER style*/
+
 .header-design{
     height: 650px;
     background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
@@ -70,6 +78,7 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .header-design h2{
     color: white;
     text-shadow: #020819 8px -20px 9px;
@@ -82,7 +91,6 @@ h5{
 .dark-background{
     background-color: rgb(25, 33, 41);
     color: white;
-
 }
 
 .text{
@@ -110,12 +118,12 @@ h5{
     width: 125px;
 }
 
-#team .section-text{
+#team .section-text{ /*To not overwrite the h4 format above, we reference it as #team*/
     font-size: 1.9em;
     text-align: center;
 }
 
-#team.member-name{
+#team .member-name{
     font-size: 1.5em;
     font-weight: 700;
 
@@ -140,7 +148,8 @@ h5{
     color: rgb(67, 163, 230);
     text-decoration: none;
 }
-ul{
+
+.footer ul{
     list-style: none;
-    /*padding: 0%; *//*DUDA! ¿Por qué no le ha afectado el padding 0 del body??*/
+    padding: 0%; /*DUDA! ¿Por qué no le ha afectado el padding 0 del body??*/
 }
